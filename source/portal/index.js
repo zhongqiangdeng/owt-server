@@ -36,7 +36,7 @@ config.cluster.network_max_scale = config.cluster.network_max_scale || 1000;
 config.capacity = config.capacity || {};
 config.capacity.isps = config.capacity.isps || [];
 config.capacity.regions = config.capacity.regions || [];
-config.capacity.idc = config.capacity.idc || "core"
+config.capacity.idc = config.capacity.idc || "core";
 
 config.rabbit = config.rabbit || {};
 config.rabbit.host = config.rabbit.host || 'localhost';
